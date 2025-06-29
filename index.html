@@ -2,126 +2,192 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Clinical Attachment Programme for IMGs</title>
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-/v3CqZaDPK5m2d4KHjzOB9VbkZ4y+1hZ7Bl4o2+ePQkSk5u6HTtvCdtHV67sJo3sbOVzJ5wHez0KfLgk0UzvKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <style>
     body {
-      font-family: sans-serif;
-      line-height: 1.6;
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
-      color: #333;
+      font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+      background: linear-gradient(to bottom right, #fff7d1, #fbe0e0);
+      color: #222;
     }
-    header {
-      background: #005EB8;
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-    }
+
     .container {
-      padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
-      background: white;
+      padding: 2rem;
     }
-    h2 {
-      color: #005EB8;
+
+    header {
+      text-align: center;
+      background-color: #f6d565;
+      padding: 1.5rem;
+      border-radius: 20px;
     }
-    ul {
-      padding-left: 20px;
+
+    header img {
+      width: 100%;
+      border-radius: 20px;
+      margin-bottom: 1rem;
     }
-    a.button {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.6rem 1.2rem;
-      margin: 0.5rem 0.5rem 0 0;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: 500;
-      transition: background 0.3s ease;
+
+    header h1 {
+      font-size: 2rem;
+      color: #a93e3e;
+      margin: 0;
+      text-transform: uppercase;
     }
-    a.button i {
-      font-size: 1rem;
+
+    .section {
+      background-color: #fff;
+      margin: 2rem 0;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    a.button:hover {
-      opacity: 0.85;
+
+    .section h2 {
+      color: #d95c5c;
+      margin-bottom: 1rem;
     }
-    .button-group {
-      margin-top: 2rem;
+
+    .section p {
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+
+    .icon-text {
       display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 0.75rem;
     }
+
+    .icon-text img {
+      width: 24px;
+      height: 24px;
+      margin-right: 0.75rem;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #a93e3e;
+    }
+
+    .contact {
+      background-color: #f6d565;
+      padding: 1rem;
+      border-radius: 15px;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .contact h3 {
+      margin: 0.5rem 0;
+    }
+
+    .qr {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .qr img {
+      width: 150px;
+      margin-top: 1rem;
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .logo img {
+      width: 120px;
+    }
+
     footer {
       text-align: center;
       font-size: 0.9rem;
-      padding: 1rem;
       color: #666;
+      margin-top: 2rem;
+    }
+
+    a {
+      color: #a93e3e;
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .section {
+        padding: 1rem;
+      }
+
+      .icon-text img {
+        width: 20px;
+        height: 20px;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Clinical Attachment Programme for IMGs</h1>
-    <p>A Fully Supervised, Hands-On NHS Experience</p>
-  </header>
+
   <div class="container">
-    <h2>Overview</h2>
-    <p>This 6-week Clinical Attachment Programme is designed for International Medical Graduates (IMGs) seeking firsthand exposure to the UK healthcare system. It offers structured and fully supervised clinical experience in an NHS GP practice.</p>
+    <header>
+      <img src="header-banner.jpg" alt="Clinical Attachment Banner">
+      <h1>Clinical Attachment Programme for IMGs</h1>
+      <p>6-week hands-on programme tailored for International Medical Graduates</p>
+    </header>
 
-    <h2>Programme Structure</h2>
-    <ul>
-      <li>Supervised hands-on experience in history-taking and clinical exams</li>
-      <li>Exposure to real NHS consultations and case discussions</li>
-      <li>Training in documentation, prescribing, and NHS models</li>
-      <li>Personalised learning plans with targeted improvements</li>
-      <li>Participation in audits and QI projects</li>
-      <li>Home visits, minor surgery, and MDT observation</li>
-    </ul>
-
-    <h2>Additional Features</h2>
-    <ul>
-      <li>Regular feedback and reviews</li>
-      <li>Career guidance: GP training, CV, and interview prep</li>
-      <li>Accommodation help available</li>
-    </ul>
-
-    <h2>Who Should Apply?</h2>
-    <ul>
-      <li>IMGs preparing for or recently registered with the GMC</li>
-      <li>Doctors new to the NHS system</li>
-      <li>Those seeking taster weeks or practical UK GP experience</li>
-    </ul>
-
-    <h2>How to Apply</h2>
-    <p>Send your CV, Statement of Interest, and GMC registration status (if applicable) to:</p>
-    <ul>
-      <li><strong>+44 (0) 7808 876647</strong></li>
-      <li><strong>+44 (0) 7596 812127</strong></li>
-    </ul>
-    <p><strong>Programme Fee:</strong> £600</p>
-
-    <div class="button-group">
-      <a class="button" href="clinical-attachment.pdf" download style="background-color: #005EB8;">
-        <i class="fa-solid fa-file-arrow-down"></i> Download PDF
-      </a>
-      <a class="button" href="https://hoylandmedicalpractice.nhs.uk/" target="_blank" style="background-color: #007B5E;">
-        <i class="fa-solid fa-globe"></i> Main Website
-      </a>
-      <a class="button" href="https://www.facebook.com/people/Hoyland-Medical/61572042961195/" target="_blank" style="background-color: #4267B2;">
-        <i class="fa-brands fa-facebook"></i> Facebook Page
-      </a>
+    <div class="section">
+      <h2>Overview</h2>
+      <p><span class="highlight">Location:</span> NHS-affiliated General Practice, Hoyland Medical Practice, Barnsley</p>
+      <p><span class="highlight">Duration:</span> 6 weeks (extension possible upon agreement and availability)</p>
+      <p><span class="highlight">Start Dates:</span> Flexible monthly intakes throughout the year</p>
     </div>
+
+    <div class="section">
+      <h2>Supervision & Experience</h2>
+      <div class="icon-text">
+        <img src="icon-hands-on.png" alt="Hands-On Icon">
+        <span>Supervised history-taking, exams, and NHS consultations with real patients</span>
+      </div>
+      <p>Mentorship from <span class="highlight">GP Partners</span>, <span class="highlight">PLAB 2 OSCE Examiners</span>, and an <span class="highlight">Educational Supervisor</span></p>
+    </div>
+
+    <div class="section">
+      <h2>Certification & CV Support</h2>
+      <p><span class="highlight">Certificate of Completion</span> provided at the end of the programme</p>
+      <p>Opportunities to participate in <span class="highlight">audits</span>, <span class="highlight">QI projects</span>, and <span class="highlight">teaching sessions</span></p>
+      <p>Focus on UK-based clinical guidelines and ethics</p>
+    </div>
+
+    <div class="contact">
+      <h3>Hoyland Medical Practice</h3>
+      <p>The Hoyland Centre, High Croft, Barnsley S74 9AF</p>
+      <p>📞 +44 (0) 7808876647 | +44 (0) 7596812127</p>
+    </div>
+
+    <div class="qr">
+      <p>For more information, scan the QR code:</p>
+      <img src="qr-code.png" alt="QR Code">
+    </div>
+
+    <div class="logo">
+      <img src="nhs-logo.png" alt="NHS Logo">
+    </div>
+
+    <footer>
+      <p>Affiliated with NHS South Yorkshire ICB | © 2025 Clinical Attachment Programme</p>
+    </footer>
   </div>
 
-  <footer>
-    NHS South Yorkshire ICB | Hoyland Medical Practice
-  </footer>
 </body>
 </html>
