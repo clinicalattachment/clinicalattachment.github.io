@@ -4,6 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Clinical Attachment Flyer</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-2MjR3HbD0y1SGpsKiEC8f+rffHgPoZ6dUGLNSkULv6hMGnShFzJTSz5hG9Cy8qTUXLMxnXIgxYVOiKtD7KtxXg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   <style>
     html, body {
       margin: 0;
@@ -35,7 +42,8 @@
     .button {
       text-decoration: none;
       color: white;
-      padding: 0.6rem 1rem;
+      background-color: #999;
+      padding: 0.6rem;
       font-size: 1.25rem;
       border-radius: 50%;
       display: inline-flex;
@@ -43,11 +51,16 @@
       justify-content: center;
       width: 44px;
       height: 44px;
+      transition: background-color 0.3s ease;
     }
 
     .button:hover {
       opacity: 0.85;
     }
+
+    .website { background-color: #007B5E; } /* NHS green */
+    .facebook { background-color: #4267B2; } /* Facebook blue */
+    .pdf { background-color: #005EB8; } /* NHS blue */
   </style>
 </head>
 <body>
@@ -57,9 +70,15 @@
   <footer>
     Programme fee £600
     <div class="button-group">
-      <a class="button" href="https://hoylandmedicalpractice.nhs.uk/" target="_blank" style="background-color: #007B5E;" title="Main Website">🌐</a>
-      <a class="button" href="https://www.facebook.com/people/Hoyland-Medical/61572042961195/" target="_blank" style="background-color: #4267B2;" title="Facebook Page">👍</a>
-      <a class="button" href="clinical-attachment.pdf" download style="background-color: #005EB8;" title="Download PDF">📄</a>
+      <a class="button website" href="https://hoylandmedicalpractice.nhs.uk/" target="_blank" title="Main Website">
+        <i class="fas fa-globe"></i>
+      </a>
+      <a class="button facebook" href="https://www.facebook.com/people/Hoyland-Medical/61572042961195/" target="_blank" title="Facebook Page">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="button pdf" href="clinical-attachment.pdf" download title="Download PDF">
+        <i class="fas fa-file-pdf"></i>
+      </a>
     </div>
   </footer>
 
