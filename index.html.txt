@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinical Attachment Programme for IMGs</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #005EB8;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+    }
+    h2 {
+      color: #005EB8;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #005EB8;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clinical Attachment Programme for IMGs</h1>
+    <p>A Fully Supervised, Hands-On NHS Experience</p>
+  </header>
+  <div class="container">
+    <h2>Overview</h2>
+    <p>This 6-week Clinical Attachment Programme is designed for International Medical Graduates (IMGs) seeking firsthand exposure to the UK healthcare system. It offers structured and fully supervised clinical experience in an NHS GP practice.</p>
+
+    <h2>Programme Structure</h2>
+    <ul>
+      <li>Supervised hands-on experience in history-taking and clinical exams</li>
+      <li>Exposure to real NHS consultations and case discussions</li>
+      <li>Training in documentation, prescribing, and NHS models</li>
+      <li>Personalised learning plans with targeted improvements</li>
+      <li>Participation in audits and QI projects</li>
+      <li>Home visits, minor surgery, and MDT observation</li>
+    </ul>
+
+    <h2>Additional Features</h2>
+    <ul>
+      <li>Regular feedback and reviews</li>
+      <li>Career guidance: GP training, CV, and interview prep</li>
+      <li>Accommodation help available</li>
+    </ul>
+
+    <h2>Who Should Apply?</h2>
+    <ul>
+      <li>IMGs preparing for or recently registered with the GMC</li>
+      <li>Doctors new to the NHS system</li>
+      <li>Those seeking taster weeks or practical UK GP experience</li>
+    </ul>
+
+    <h2>How to Apply</h2>
+    <p>Send your CV, Statement of Interest, and GMC registration status (if applicable) to:</p>
+    <ul>
+      <li><strong>+44 (0) 7808 876647</strong></li>
+      <li><strong>+44 (0) 7596 812127</strong></li>
+    </ul>
+    <p><strong>Programme Fee:</strong> £600</p>
+
+    <a class="button" href="#">Download PDF</a>
+  </div>
+
+  <footer>
+    NHS South Yorkshire ICB | Hoyland Medical Practice
+  </footer>
+</body>
+</html>
